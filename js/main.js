@@ -319,7 +319,7 @@
                     error: function() {
     
                         sLoader.slideUp("slow"); 
-                        $('.message-warning').html("Something went wrong. Please try again.");
+                        $('.message-warning').html("Something went wrong. Please try again or click the email link.");
                         $('.message-warning').slideDown("slow");
     
                     }
