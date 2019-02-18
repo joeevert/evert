@@ -234,9 +234,11 @@
                                     GitHub
                                 </a>
                                 <br />
+                                <br />
                                 <a href="https://enigmatic-coast-16490.herokuapp.com/#/home" target="_blank">
                                     Website
                                 </a>
+                                <br />
                             </div>
     
                         </div>
@@ -268,9 +270,11 @@
                                     GitHub
                                 </a>
                                 <br />
+                                <br />
                                 <a href="https://evert-travel-photo-gallery.herokuapp.com/" target="_blank">
                                     Website
                                 </a>
+                                <br />
                             </div>
     
                         </div>
@@ -301,6 +305,7 @@
                                 <a href="https://github.com/joeevert/Redux-Feedback-Loop" target="_blank">
                                     GitHub
                                 </a>
+                                <br />
                             </div>
     
                         </div>
@@ -330,7 +335,8 @@
                                 <p>This is a 'To Do List' app that allows the user to create and store tasks inside of a database. Each task has an option to 'Complete' or 'Delete'. When a task is completed, the visual representation of the task updates and gives the user the option to 'Uncheck' the task.</p>
                                 <a href="https://github.com/joeevert/To-Do-List" target="_blank">
                                     GitHub
-                                </a><br />
+                                </a>
+                                <br />
                             </div>
                         </div>
                     </div> <!-- end masonry__brick -->
@@ -361,9 +367,11 @@
                                     GitHub
                                 </a>
                                 <br />
+                                <br />
                                 <a href="https://evert-salary-calc.herokuapp.com/" target="_blank">
                                     Website
                                 </a>
+                                <br />
                             </div>
     
                         </div>
@@ -394,7 +402,7 @@
 
                 <h3 class="h6">Shoot Me A Message</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <!-- <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <div class="form-field">
                         <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
@@ -418,7 +426,58 @@
                             </div>
                         </div>
                     </div>
-                </form>
+                </form> -->
+                <div style="background-color: white">
+                <form name="contactform" method="post" action="inc/send_form_email.php">
+                    <table width="450px">
+                    <tr>
+                     <td valign="top">
+                      <label for="first_name">First Name *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="first_name" maxlength="50" size="30" style="color: black">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top"">
+                      <label for="last_name">Last Name *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="last_name" maxlength="50" size="30" style="color: black">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="email">Email Address *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="email" maxlength="80" size="30" style="color: black">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="telephone">Telephone Number</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="telephone" maxlength="30" size="30" style="color: black">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="comments">Comments *</label>
+                     </td>
+                     <td valign="top">
+                      <textarea  name="comments" maxlength="1000" cols="25" rows="6" style="color: black"></textarea>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td colspan="2" style="text-align:center">
+                      <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+                     </td>
+                    </tr>
+                    </table>
+                    </form>
+                </div>
 
                 <!-- contact-warning -->
                 <div class="message-warning">
